@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만 나이 계산기</title>
+    <link rel="stylesheet" href="calcstyle.css" />
+    <script src="agecalculator.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>
+                만 나이 계산기
+            </h1>
+            <p class="subTitle">만 나이 계산을 간편하게:)</p>
+        </header>
+
+        <section>
+            <div class="day">
+                <label for="birthday" class="font hbd">생년월일</label>
+                <div class="inputwrap">
+                    <input type="date" id="birthday" />
+                </div>
+            </div>
+            <div class="age">
+                <label for="birthday" class="font only">만 나이</label>
+                <div class="inputwrap" id="result">
+                    
+                </div>
+            </div>
+
+            <button id="submit" class="submitBtn">계산하기</button>
+        </section>
+    </div>
+</body>
+
+</html>
