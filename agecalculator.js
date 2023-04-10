@@ -49,25 +49,3 @@ birthSubmit.addEventListener('click', (e)=>{
         circles.remove()
     },1200)
 })
-
-
-// //버튼js
-// //버튼변수설정
-// const btn = document.querySelector('button');
-// console.log(btn);
-
-// btn.addEventListener('click', (e)=> {
-//     let x = e.clientX - e.target.offsetLeft;
-//     let y = e.clientY - e.target.offsetTop;
-
-//     let circles = document.createElement('span');
-
-//     circles.style.left = x + 'px';
-//     circles.style.top = y + 'px';
-//     btn.appendChild(circles);
-    
-//     setTimeout(()=> {
-//         circles.remove()
-//     },1200)
-//     //수정
-// })
